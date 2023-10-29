@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.tetris {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: red;
+}
+
+.controls {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.control-direction {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.control-aditional {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.control-button-direction {
+    font-size: 70px;
+    color: #fff;
+    flex-basis: 50%;
+    text-align: center;
+}
+.control-button-aditional{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+
+.down-run {
+    text-decoration: underline;
+}
+
+/* #canvas{} */
